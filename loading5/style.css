@@ -1,0 +1,20 @@
+.ring {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  border-radius: 100%;
+  border: 7px dashed #4b9cdb;
+  animation: ring 1.5s 0.3s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
