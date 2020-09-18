@@ -91,6 +91,22 @@ body {
   margin-left: -4px;
 }
 
+.earth {
+  width: 145px;
+  height: 145px;
+  margin-top: -72.5px;
+  margin-left: -72.5px;
+  animation: rotate 30s linear infinite;
+}
+
+.earth::before {
+  width: 6px;
+  height: 6px;
+  background: #11abe9;
+  margin-top: -3px;
+  margin-left: -3px;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(360deg);
