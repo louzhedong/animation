@@ -191,6 +191,22 @@ body {
   transform-origin: 52% 60%;
 }
 
+.uranus {
+  width: 520px;
+  height: 520px;
+  margin-left: -260px;
+  margin-top: -260px;
+  animation: rotate 2512.4001967933s linear infinite;
+}
+
+.uranus::before {
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: -5px;
+  background: #b5e3e3;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(360deg);
