@@ -207,6 +207,22 @@ body {
   background: #b5e3e3;
 }
 
+.neptune {
+  width: 630px;
+  height: 630px;
+  margin-left: -315px;
+  margin-top: -315px;
+  animation: rotate 4911.7838624549s linear infinite;
+}
+
+.neptune::before {
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: -5px;
+  background: #175e9e;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(360deg);
